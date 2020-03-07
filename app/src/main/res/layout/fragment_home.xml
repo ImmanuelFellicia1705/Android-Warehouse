@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/mainContainer"
+    android:layout_height="match_parent">
+
+    <!--<TextView
+        android:id="@+id/text_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <Button
+        android:id="@+id/myProduct"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@drawable/custom_button"
+        android:drawableLeft="@drawable/ic_box"
+        android:drawableRight="@drawable/ic_play"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:text="    my Product"
+        android:textColor="#020202"
+        android:textSize="20dp"
+        android:textAlignment="textStart"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/listWarehouse"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@drawable/custom_button"
+        android:drawableLeft="@drawable/ic_address"
+        android:drawableRight="@drawable/ic_play"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:text="    list Warehouse"
+        android:textColor="#020202"
+        android:textSize="20dp"
+        android:textAlignment="textStart"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/myProduct"/>
+
+    <Button
+        android:id="@+id/findProduct"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@drawable/custom_button"
+        android:drawableLeft="@drawable/ic_find"
+        android:drawableRight="@drawable/ic_play"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:text="    find Product"
+        android:textColor="#020202"
+        android:textSize="20dp"
+        android:textAlignment="textStart"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/listWarehouse"/>
+
+    <Button
+        android:id="@+id/myOrder"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@drawable/custom_button"
+        android:drawableLeft="@drawable/ic_invoice"
+        android:drawableRight="@drawable/ic_play"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:text="    my order"
+        android:textColor="#020202"
+        android:textSize="20dp"
+        android:textAlignment="textStart"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/findProduct"/>
+
+    <Button
+        android:id="@+id/addProduct"
+        android:layout_centerHorizontal="true"
+        android:onClick="addProduct"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@drawable/custom_button"
+        android:drawableLeft="@drawable/ic_basket"
+        android:drawableRight="@drawable/ic_play"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:text="    add product"
+        android:textColor="#020202"
+        android:textSize="20dp"
+        android:textAlignment="textStart"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/myOrder"/>
+
+</RelativeLayout>
